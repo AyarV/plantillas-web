@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis Plantillas Web</title>
+    <title>Plantillas Web Responsive</title>
     
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -247,13 +247,16 @@
         <div class="sidebar" id="sidebar">
             <div class="sidebar-header">
                 <h4><i class="bi bi-grid-3x3-gap-fill"></i> TemplateHub</h4>
-                <p>Mis plantillas web</p>
+                <p>Plantillas web Responsive</p>
+                <p>Bootstrap 5</p>
             </div>
             
+            <!--
             <div class="stats-mini">
                 <div class="number" id="totalCount">0</div>
                 <div class="label">Plantillas disponibles</div>
             </div>
+            -->
             
             <!-- 🔥 LISTA DE PLANTILLAS - ESCRIBES TUS PLANTILLAS AQUÍ 🔥 -->
             <ul class="template-list" id="templateList">
@@ -270,11 +273,23 @@
                 <li onclick="loadTemplate('Presento-1.0.0/index.html', 'Presento')" data-id="presento">
                     <i class="bi bi-filetype-html"></i> Presento
                 </li>
+                <li onclick="loadTemplate('Company-1.0.0/index.html', 'Company')" data-id="company">
+                    <i class="bi bi-filetype-html"></i> Company
+                </li>
+                <li onclick="loadTemplate('Impact-1.0.0/index.html', 'Impact')" data-id="impact">
+                    <i class="bi bi-filetype-html"></i> Impact
+                </li>
+                <li onclick="loadTemplate('NewBiz-1.0.0/index.html', 'NewBiz')" data-id="newbiz">
+                    <i class="bi bi-filetype-html"></i> NewBiz
+                </li>
+                <li onclick="loadTemplate('Sailor-1.0.0/index.html', 'Sailor')" data-id="sailor">
+                    <i class="bi bi-filetype-html"></i> Sailor
+                </li>
                 <!-- 👆 AGREGAR MÁS PLANTILLAS ARRIBA 👆 -->
             </ul>
             
             <div class="sidebar-footer">
-                <i class="bi bi-info-circle"></i> Click en plantilla → se abre y oculta menú
+                <i class="bi bi-info-circle"></i> Click en plantilla → <br>
                 <i class="bi bi-code-square"></i> Desarrollado por <strong>Ing. Ayar Venegas</strong><br>
                 <small class="opacity-50">© 2026 - Todos los derechos reservados</small>
             </div>
@@ -322,7 +337,11 @@
             { ruta: 'acuas-1.0.0/index.html', nombre: 'Acuas', id: 'acuas' },
             { ruta: 'AgriCulture-1.0.0/index.html', nombre: 'AgriCulture', id: 'agriculture' },
             { ruta: 'gardener-1.0.0/index.html', nombre: 'Gardener', id: 'gardener' },
-            { ruta: 'Presento-1.0.0/index.html', nombre: 'Presento', id: 'presento' }
+            { ruta: 'Presento-1.0.0/index.html', nombre: 'Presento', id: 'presento' },
+            { ruta: 'Company-1.0.0/index.html', nombre: 'Company', id: 'company' },
+            { ruta: 'Impact-1.0.0/index.html', nombre: 'Impact', id: 'impact' },
+            { ruta: 'newbiz-1.0.0/index.html', nombre: 'NewBiz', id: 'newbiz' },
+            { ruta: 'Sailor-1.0.0/index.html', nombre: 'Sailor', id: 'sailor' },
             // 🔥 AGREGAR NUEVAS PLANTILLAS AQUÍ 🔥
             // Ejemplo: { ruta: 'mi-plantilla/index.html', nombre: 'Mi Plantilla', id: 'miplantilla' },
         ];
